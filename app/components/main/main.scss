@@ -1,0 +1,32 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+}
+
+.push {
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    min-height: 100px;
+    width: 100%;
+    background-color: #E3E3E3;
+    color: #5E5E5E;
+}
+
+@media screen and (min-width: 992px) {
+    footer {
+        bottom: 0;
+    }
+}
